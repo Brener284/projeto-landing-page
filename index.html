@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>escola dnc</title>
+</head>
+<body>
+    <!--MENU SUPERIOR-->
+    <div id="menusuperior">
+    <a href="https://www.escoladnc.com.br/"><img src="./imagens/logo.svg" id="logo" alt="ERROR0"> </a>
+    <h1 id="Título-menusuperior">Dê os primeiros passos da<br>
+     sua carreira em Tecnologia</h1>
+    <p id="Texto-menusuperior">Inscreva-se no curso gratuito de Introdução à Tecnologia<br>
+     da DNC School e aprenda os principais fundamentos<br>
+     para
+     construir experiências efetivas.</p>
+    </div>
+    <!--MENU INFORMACIONAL-->
+    <div id="menuinformacional">
+        
+        <p class="textoinformativo"> <img src="icones/certificado.svg" class="icone" id="certificado" alt=""> Certificado de conclusão</p>
+        
+        <p class="textoinformativo"> <img src="icones/relogio.svg" class="icone" id="relogio" alt=""> 4 horas de conteúdo</p>
+        
+        <p class="textoinformativo"> <img src="icones/aulas.svg" class="icone" id="aulas" alt=""> Aulas online gravadas</p>
+    </div>
+    <!--SEÇÃO VIDEO-->
+    <div id="video">
+        <iframe id="Monogâmico" width="853" height="480" src="https://www.youtube.com/embed/K7Tt3Vnyadk" title="LUCKHAOS - BDSM (Bom Demais Ser Monogâmico) [Prod. pdr0sa] [edit by @jotatress]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <div>
+            <h1 id="titulo-video">
+                Aprenda com especialistas e <br>
+                 comece seu primeiro projeto
+             </h1> <br><br>
+    
+             <p id="texto video">Conheça o processo de desenvolvimento e entenda como utilizar <br>
+                 os principais métodos e ferramentas da área para resolver <br>
+                 problemas complexos. <br><br>
+    
+                 Conquiste seu certificado e desenvolva um projeto prático para aplicar seus conhecimentos. <br>
+                  </p>
+         </div>
+         
+    </div>
+
+<!--CARROSSEL-->
+
+    <div id="carrossel">
+       <h1 id="titulo-carrossel">
+        Mais de 500 alunos já iniciaram seus estudos
+       </h1>
+       <div id="div-cards">
+        <img id="seta-esquerda" onclick="RolarParaEsquerda()" class="seta" src="./icones/seta-esquerda.svg" alt="">
+        <img id="bruna" class="cards" src="./cars/bruna.svg" alt="">
+        <img id="leonardo" class="cards" src="./cars/leonardo.svg" alt="">
+        <img id="samanth class="cards" src="./cars/samanth.svg" alt="">
+        <img id="seta-direita" onclick="RolarParaDireita()" class="seta" src="./icones/seta-direita.svg" alt="">
+       </div>
+       
+    </div>
+    <!--FORMULARIO-->
+    <div id="formulario"> 
+    <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira</h1>
+    <form action="https://api.sheetmonkey.io/form/hGNTsySnr5dAtvLGq7F3yD" method="post" >
+        <input type="text" placeholder="Nome" name="Name" required> <br>
+        <input type="emai"placeholder="email"  name="Email" required  > <br>
+        <input typt="number"placeholder="telefone" name="number" required> <br>
+        <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+        <button type="submit" >Acesse a ementa grátis</button>
+    </form>
+    
+     </div>
+    
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
